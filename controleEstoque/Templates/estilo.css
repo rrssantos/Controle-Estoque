@@ -1,0 +1,226 @@
+/* removendo underline do link*/
+a{
+  text-decoration: none;
+}
+
+/* posicao do formulario */
+.formulario{
+  width: 500px;
+  min-height: 1px;    
+  margin: 10px auto;
+  position: relative;   
+}
+
+h1{
+  font-size: 48px;
+  color: black;
+  padding: 1px 0 10px 0;
+  font-family: Arial,sans-serif;
+  text-align: center;
+
+}
+
+select#cSexo{
+	margin-bottom: 3px;
+	width: auto;
+}
+
+p{
+  margin-bottom:3px;
+}
+
+input#caData {
+	width: 130px;
+	
+}
+ 
+ 
+label{
+   position: relative;
+}
+
+/*input,  menos o checkbox */
+input:not([type="checkbox"]){
+  width: 95%;
+  margin-top: 4px;
+  padding: 10px;    
+  border: 1px solid #b2b2b2;
+ 
+}
+ 
+/*bot�o logar */
+
+a#bLogar{
+  font-weight: bold;
+  background: rgba(61, 157, 179, .2);
+  padding: 6px;
+  color: black;
+}
+ 
+a#bLogar:hover{
+  color: #39bfd7;
+  background: #f7f7f7;
+  border: 1px solid #4ab3c6;
+}
+
+
+/* bot�o cadastrar */
+input[type="submit"]{
+  width: 30%;
+  cursor: pointer;  
+  background: rgba(61, 157, 179, .2);
+  color: black;
+  font-size: 20px;  
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #333;
+ 
+}
+ 
+input[type="submit"]:hover{
+  color: #39bfd7;
+  background: #f7f7f7;
+  border: 1px solid #4ab3c6;
+}
+
+/*botao cadastro e login */
+.link{
+  position: absolute;
+  color: #7f7c7c;
+  left: 0px;
+  height: 20px;
+  width: 440px;
+  padding: 17px 30px 20px 30px;
+  font-size: 16px;
+  border-top: 1px solid #dbe5e8;
+}
+ 
+.link a {
+  font-weight: bold;
+  background: rgba(61, 157, 179, .2);
+  padding: 6px;
+  color: black;
+
+}
+ 
+.link a:hover {
+  color: #39bfd7;
+  background: #f7f7f7;
+  border: 1px solid #4ab3c6;
+}
+
+
+
+/* tela de cadastro e login */
+
+
+#login{
+  position: absolute;
+  top: 150px;
+  width: 88%;   
+  padding: 5px 3% 60px 3%;
+  margin: 0 0 35px 0;
+  background: #f7f7f7;
+  border: 1px solid rgba(147, 184, 189,0.8);
+}
+
+#cadastro {
+  position: relative;
+  top: 20px;
+  width: 88%;   
+  padding: 5px 3% 60px 3%;
+  margin: 0 0 35px 0;
+  background: #f7f7f7;
+  border: 1px solid rgba(147, 184, 189,0.8);
+}
+
+table#tabela {
+	border: 0;
+	width: 100% ;
+	height: 5%; 
+	
+}
+
+/* controle estoque */
+
+div#sair{
+  position: relative;
+  left: 800px;
+  top: 1px;
+  border-radius: 22px;
+  width: 5%;
+  cursor: pointer;  
+  background: rgba(61, 157, 179, .2);
+  color: black;
+  font-size: 15px;  
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #333;
+  text-align: center;
+}
+
+
+#cdprod input{
+	border: relative;
+	border: 1px solid rgba(147, 184, 189,0.8);
+    border-radius: 22px;
+    width: 25%;
+    height: 20px;
+}
+
+#botoes {
+	margin-top: 3px;
+    text-align: center;
+    border-radius: 22px;
+    padding: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    border: 1px solid rgba(147, 184, 189,0.8);
+	
+} 
+
+#saida, #cdprod {
+    margin-top: 3px;
+    text-align: center;
+    border-radius: 22px;
+    padding: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    border: 1px solid rgba(147, 184, 189,0.8);
+}
+
+button{
+  
+  border-radius: 22px;
+  width: 30%;
+  cursor: pointer;  
+  background: rgba(61, 157, 179, .2);
+  color: black;
+  font-size: 20px;  
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #333;
+}
+
+button:hover, tr:hover, #cdprod input:hover, div#sair:hover{
+  color: #39bfd7;
+  background: #f7f7f7;
+  border: 1px solid #4ab3c6;
+}
+
+
+#saida input{
+    height: 20px;
+    width: 20px;
+}
+
+
+
+td{
+  border-radius: 22px;
+  cursor: pointer;  
+  background: rgba(61, 157, 179, .2);
+  color: black;
+  font-size: 15px;  
+  margin-bottom: 10px;  
+    text-shadow: 0 1px 1px #333;
+
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastro - Estoque</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+<body>
+  <div class="container" >
+  	<div class="formulario">
+      <div id="cadastro">
+        <form method="post" action=""> 
+          <h1>Cadastro</h1> 
+           
+          <p> 
+            <label for="cNome">Nome</label>
+            <input id="cNome" name="nome_user" required type="text" placeholder="Digite seu nome completo"  />
+          </p>
+           
+          <p> 
+            <label for="cEmail">e-mail</label>
+            <input id="cEmail" name="email_user" required type="email" placeholder="Digite seu e-mail"/> 
+          </p>
+          
+            <p> 
+            <label for="cSenha">Senha</label>
+            <input id="cSenha" name="senha_user" required type="password"/>
+          </p>
+          
+           <p> <label for="caData">Data de Nascimento:</label> <input type="date" name="dn_user" required id="caData"></p>
+
+        	<p><label for="cSexo">Sexo:</label><select name="sexo_user" required id="cSexo">
+          	<optgroup>
+	            <option value="masc">Masculino</option>
+	            <option value="fem">Feminino</option>
+	            <option value="ninf">Não Informar</option>
+            </optgroup>
+            </select>
+            </p>   
+                    
+           <p><label for="cRua">Logradouro:</label><input type="text" name="end_user" required id="cRua"size="13" maxlength="80" placeholder="Rua, Av. Tv"> </p>
+            <p><label for="cNum">Número:</label><input type="number" name="end_n_user" required id="cNum" min="0" max="99999"></p>
+            <p><label for="cEst">Estado:</label><input id="cEst" name="est_user" required type="text" placeholder="Digite seu Estado" /></p>
+           
+          <p> 
+            <input type="submit" value="userrecord"/> 
+          </p>
+           
+          <p class="link">  
+            Já tem conta?
+            <a href="index.html"> Ir para Login </a>
+          </p>
+        </form>
+      </div>
+     </div> 
+	</div>
+</body>
+</html>

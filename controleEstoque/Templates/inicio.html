@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Pagina In</title>
+    <link rel='stylesheet' type='text/css' href='estilo.css'>
+</head>
+<body>
+    <h1>Cadastros de produtos</h1>
+    <div id="sair">
+    	<a href="index.html">Sair</a>
+    
+    </div>
+     <!--campo para adicionar produtos -->
+    <div id="cdprod">
+        <input type="text" placeholder="Nome:" name="nome_pr" required>
+        <input type="number" placeholder="Quantidade" name='qtde_pr' required>
+        <input type="text" placeholder="Preço" name='valor_pr' required>
+    </div>
+    <!-- Campo dos botoes -->
+    <div id="botoes">
+        <button id="cad" value="estoquerecord()">Cadastrar</button>
+        <button id="ex" value="estoquedelete()">Excluir</button>
+        <button id="cs" value="estoqueconsultar()">Consultar</button>
+    </div>
+    <!-- mostrar na tela -->
+    <div id="saida">
+        <table id="tabela">
+            <tr>
+                <td width="80px">
+                	Cod.
+                </td>
+                <td>
+                    Nome
+                </td>
+                <td>
+                    Quant.
+                </td>
+                <td>
+                    Preço
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
